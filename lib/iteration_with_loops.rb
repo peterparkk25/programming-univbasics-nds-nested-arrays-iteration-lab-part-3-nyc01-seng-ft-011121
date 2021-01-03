@@ -8,7 +8,7 @@ def join_nested_strings(src)
       while element_index < src[row_index].count do
         string = src[row_index][element_index]
         if string.instance_of? String
-          sentence << string
+          sentence.push(string)
         end
         element_index += 1
       end
