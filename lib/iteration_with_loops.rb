@@ -6,6 +6,7 @@ def join_nested_strings(src)
     while row_index < src.count do
     element_index = 0
       while element_index < src[row_index].count do
+        
         if src[row_index][element_index].instance_of? String
           sentence += src[row_index][element_index]
         end
@@ -15,7 +16,3 @@ def join_nested_strings(src)
     end
   sentence
 end
-
-src[0][0] = "The"
-
-"geg" + src[0][1]
