@@ -15,3 +15,7 @@ def join_nested_strings(src)
     end
   sentence
 end
+
+src[0][0] = "The"
+
+"geg" + src[0][0]
